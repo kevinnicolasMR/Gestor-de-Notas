@@ -3,9 +3,12 @@ import TaskFrom from "./components/TaskFrom";
 
 function App() {
   return (
-    <div class="container">
+    <div>
       <TaskFrom class="taskFrom"/>
-      <TaskList/>
+      <div class="container">
+        <TaskList />
+        <div class="gestion"> hola </div>
+      </div>
     </div>
   );
 }

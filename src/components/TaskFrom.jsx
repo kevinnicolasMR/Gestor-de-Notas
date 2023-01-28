@@ -21,13 +21,13 @@ function TaskFrom() {
           onChange={(e) => setTitle(e.target.value)}
           value={title}
           autoFocus
-          class="input"
+          class="inputA"
         />
         <textarea
           placeholder="Describe la tarea -w-"
           onChange={(e) => setDescription(e.target.value)}
           value={description}
-          class="input"
+          class="inputB"
         ></textarea>
         <div class="submitContainer">
           <button class="submit">Guardar</button>
