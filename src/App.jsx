@@ -3,10 +3,10 @@ import TaskFrom from "./components/TaskFrom";
 
 function App() {
   return (
-    <>
-      <TaskFrom/>
+    <div class="container">
+      <TaskFrom class="taskFrom"/>
       <TaskList/>
-    </>
+    </div>
   );
 }
 

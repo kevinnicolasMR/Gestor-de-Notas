@@ -10,13 +10,15 @@ function TaskList() {
   }
 
   return (
-    <div>
+    <div class="containerX">
+    <div class="x">
       {tasks.map((task) => (
         <TaskCard 
         key={task.id} 
         task = {task}
         />
       ))}
+    </div>
     </div>
   );
 }
