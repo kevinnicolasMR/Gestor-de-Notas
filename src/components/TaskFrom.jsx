@@ -24,7 +24,7 @@ function TaskFrom() {
           class="input"
         />
         <textarea
-          placeholder="Describe la tarea Onichan -w-"
+          placeholder="Describe la tarea -w-"
           onChange={(e) => setDescription(e.target.value)}
           value={description}
           class="input"
